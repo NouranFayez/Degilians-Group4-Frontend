@@ -1,0 +1,72 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+/* global style */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.bg-light{
+    background-color: #e0dfdf;
+}
+
+.padding-top-bottom{
+    padding: 4% 0%;
+}
+
+.bg-black{
+    background-color: rgb(56, 56, 56);
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-start (default) , flex-end , center , space-around , space-evenly  */
+    justify-content: space-between;
+    /* stretch (default) , flex-end , flex-start , center */
+    align-items: center;
+    /* flex-direction: row , row-reverse , column , column-reverse; */
+
+}
+.display-flex{
+    display: flex;
+    
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-item-center{
+    align-items: center;
+}
+.text-white{
+    color: white;
+}
+
+/* custom style */
+nav ul{
+    
+    width: 26%;
+}
+nav h1{
+    font-size: 45px;
+}
+.card{
+    background-color: white;
+    width: 30%;
+    padding: 2%;
+}
