@@ -1,0 +1,187 @@
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* global style */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.bg-light {
+    background-color: #e0dfdf;
+}
+
+.padding-top-bottom {
+    padding: 4% 0%;
+}
+
+.bg-black {
+    background-color: rgb(56, 56, 56);
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-start (default) , flex-end , center , space-around , space-evenly  */
+    justify-content: space-between;
+    /* stretch (default) , flex-end , flex-start , center */
+    align-items: center;
+    /* flex-direction: row , row-reverse , column , column-reverse; */
+
+}
+
+.display-flex {
+    display: flex;
+
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.btn-transparent {
+    margin-top: 3%;
+    font-size: 20px;
+    padding: 1%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.btn-transparent:hover {
+    background-color: white;
+    color: black;
+}
+
+.hr-white {
+    width: 10%;
+    margin: 3% auto;
+    border: 1px solid white;
+}
+
+/* custom style */
+nav{
+    position: sticky;
+    top: 0;
+}
+nav ul {
+
+    width: 26%;
+}
+
+nav h1 {
+    font-size: 45px;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    padding: 2%;
+}
+
+.bg-img {
+    background-image: url(../images/natural.jpg);
+    /* cover , contain */
+    background-size: 100% 150%;
+    /* height: 400px; */
+    color: white;
+    text-align: center;
+
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.675);
+    height: 100%;
+}
+
+hr {
+    width: 20%;
+
+}
+
+#up-arrow {
+    font-size: 40px;
+    background: black;
+    color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+
+}
+#up-arrow:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+header{
+    padding: 2%;
+    background-color: blue;
+}
+
+.card-img{
+    width: 40%;
+   
+    
+}
+.card-img img{
+    width: 100%;
+}
+.position-relative{
+    position: relative;
+}
+.card-img a{
+    background-color: white;
+    color: blue;
+    padding: 1%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.custom-card-overlay{
+    width: 40%;
+    position: relative;
+    
+}
+.custom-card-overlay img{
+    width:  100%;
+    display: block;
+}
+.card-overlay{
+    background: #00000070;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+/* position ==> fixed sticky relative absolute static (default) */
+/* top left right bottom z-index */
