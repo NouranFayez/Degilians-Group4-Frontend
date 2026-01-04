@@ -181,6 +181,20 @@ header{
     position: absolute;
     top: 0;
     height: 100%;
+    display: none;
+}
+
+/* .card-overlay:hover{
+    display: block;
+     background: #00000070;
+    position: absolute;
+    top: 0;
+    height: 100%;
+} */
+
+.custom-card-overlay:hover .card-overlay{
+    display: block;
+
 }
 
 /* position ==> fixed sticky relative absolute static (default) */
