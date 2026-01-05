@@ -1,0 +1,47 @@
+/* rule ==> @media , @keyframes */
+
+/* type ==> screen all speetch print */
+/* condition ==> max-width , min-width , range */
+/* breakpoint ==> screen size */
+
+
+/* 350 */
+/* 0 : 800 */
+@media (max-width:800px){
+    .card{
+        width: 45%;
+    }
+}
+@media (max-width: 575.98px) { 
+
+ }
+
+/* 0 : 400 */
+@media (max-width:400px){
+    .card{
+        width: 100%;
+    }
+}
+
+
+@media (min-width:900px){
+    .card{
+        background-color: aqua;
+    }
+}
+
+@media (min-width:500px) and (max-width:800px){
+    .card{
+        background-color:teal ;
+        color: white;
+    }
+    .d-none{
+        display: none;
+    }
+}
+
+
+/* https://getbootstrap.com/docs/5.3/layout/breakpoints/ */
+
+
+
