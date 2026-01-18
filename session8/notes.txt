@@ -11,4 +11,8 @@ js ==> camel Case and case sensitive
 
 
 
- -- if condition                 
+ -- if condition    
+ -- Switch case (search)        
+
+
+ -- for looping , while (search) , do-while  (search)    

@@ -20,7 +20,7 @@ var test = null
 var n = 20
 var m = 30
 
-var sum = n + m
+// var sum = n + m
 
 
 // console.log(sum)
@@ -109,40 +109,89 @@ var address; // false
 //     false
 // }
 
-var fName = prompt('enter your name')
+// var fName = prompt('enter your name')
 
-console.log(fName.toLowerCase())
-console.log(fName.toUpperCase())
+// console.log(fName.toLowerCase())
+// console.log(fName.toUpperCase())
 
 
 
-if (fName.toLowerCase() == "ali") {
-    var result = fName
-    console.log(result)
-    console.log('Developer')
+// if (fName.toLowerCase() == "ali") {
+//     var result = fName
+//     console.log(result)
+//     console.log('Developer')
+// }
+// else if(fName.toLowerCase() == "mohamed"){
+//     console.log('Accountant')
+// }
+// else if (fName.toLowerCase() == "ahmed"){
+//     console.log('Engineer')
+// }
+// else {
+//     console.log('invalid user')
+// }
+
+
+
+// degree = prompt('enter your degree')
+
+
+
+
+
+// console.log(1)
+// console.log(2)
+// console.log(3)
+// console.log(4)
+// console.log(5)
+// console.log(6)
+// console.log(7)
+// console.log(8)
+// console.log(9)
+
+
+// for(variable ; condition ; increment/decrement){
+//     code ..
+// }
+
+// for(var i = 1 ; i < 10 ; i++){
+//     if(i == 8) break
+//     else if(i == 3) {
+     
+//         continue
+//     }
+//     else console.log(i)
+    
+// }
+
+
+
+// // function ==> block of code 
+//                 functionName
+//                 parameters (optional)
+//                 Body
+//                 Call()
+
+
+
+// prompt()
+
+
+
+
+function sum(){
+    var n1 = 10
+    var n2 = 20
+    var sumNumbers = n1 + n2
+    console.log(sumNumbers)
+    return sumNumbers
 }
-else if(fName.toLowerCase() == "mohamed"){
-    console.log('Accountant')
-}
-else if (fName.toLowerCase() == "ahmed"){
-    console.log('Engineer')
-}
-else {
-    console.log('invalid user')
-}
 
+var res = sum()
 
+console.log(res)
 
-degree = prompt('enter your degree')
-
-
-
-
-
-
-
-
-
+// var p = prompt()
 
 
 
