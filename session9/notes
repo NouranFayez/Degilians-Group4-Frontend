@@ -1,7 +1,8 @@
 -- array Methods ==> slice()
                      toString()
                      join()
-                     
+                     sort()
+                     reverse()
 
 -- String Methods ==> toLowerCase()
                       toUpperCase()
