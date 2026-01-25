@@ -21,4 +21,6 @@
                       Math.ceil()  
                       Math.floor()
                       Math.max()
-                      Math.min()                                                            
+                      Math.min()  
+                      Math.abs()
+                                                                                
