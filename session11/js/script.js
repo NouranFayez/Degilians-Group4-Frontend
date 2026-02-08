@@ -16,7 +16,7 @@ var users = [
     }
 ]
 
-// localStorage.setItem('users' , JSON.stringify(users))
+localStorage.setItem('users' , JSON.stringify(users))
 
 // var ids = [1 , 3, 5]
 
@@ -38,3 +38,5 @@ var users = [
 
 
 console.log(localStorage.getItem('address'));
+
+var users = []
