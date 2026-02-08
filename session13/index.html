@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <h3 class="custom-class">H3 before H1 </h3>
     <h1 id="h1_element" class="text-blue bg-light">
@@ -19,9 +22,32 @@
 
 
     <img id="img_id" src="images/1.jpg" width="200" height="200" alt="">
-    <button onclick="changeImg()" >Change Image</button>
-   
-    
+    <button onclick="changeImg()">Change Image</button>
+
+
+    <div onmouseenter="handleChange('mouseenter' , this)" onmouseleave="handleChange('mouseleave' , this)">
+        <h3>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sit velit nihil blanditiis porro libero, at
+            magni enim ut eos veritatis ipsam, facilis eius perspiciatis. Ab similique quas ea temporibus.
+        </h3>
+    </div>
+
+    <div onmouseenter="handleChange('mouseenter' , this)" onmouseleave="handleChange('mouseleave' , this)">
+        <h3>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sit velit nihil blanditiis porro libero, at
+            magni enim ut eos veritatis ipsam, facilis eius perspiciatis. Ab similique quas ea temporibus.
+        </h3>
+    </div>
+
+
+    <div class="card bg-light" id="custom-card">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cupiditate illum ducimus praesentium quo
+            optio maiores unde expedita sunt et?</h2>
+    </div>
+    <button onclick="handleClick()">add class</button>
+
+
     <script src="js/script.js"></script>
 </body>
+
 </html>
