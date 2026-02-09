@@ -95,6 +95,11 @@ myForm.addEventListener('submit' , (e)=>{
     tdEmail.innerText = e.target.elements.userEmailInput.value
     console.log(td)
 
+    let btn = document.createElement('button')
+    btn.addEventListener('click' , ()=>{
+        
+    })
+
     tr.appendChild(td)
     tr.appendChild(tdEmail)
 
