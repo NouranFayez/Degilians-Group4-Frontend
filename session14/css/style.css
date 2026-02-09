@@ -1,0 +1,10 @@
+#topArrow{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    font-size: 35px;
+    color: red;
+}
+.d-none{
+    display: none;
+}
