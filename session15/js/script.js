@@ -157,11 +157,11 @@ let div = document.getElementById('div_id')
 let handleUserFunc = async ()=>{
     let data = await fetch("https://jsonplaceholder.typicode.com/users")
     let apiResult = await data.json()
-    console.log(apiResult)
+    console.log(data)
     apiResult.forEach(element => {
-        let h2 = document.createElement('h2')
-        h2.innerText = element.username
-        div.appendChild(h2)
+        let h2element= document.createElement('h2')
+        h2element.innerText = element.username
+        div.appendChild(h2element)
         
     });
 }
