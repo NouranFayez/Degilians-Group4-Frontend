@@ -70,23 +70,107 @@
 let myPromise = (val)=>{
     return new Promise((resolve , reject)=>{
          setTimeout(() => {
-        if (typeof val == "number") {
-            resolve(val * 2)
-        }
-        else {
-            reject('invalid')
-        }
+        if (typeof val == "number") { resolve(val * 2)}
+        else {reject('invalid')}
         // return total
     }, 2000)
     })
 }
+
+// let result 
 // handling promise with then and catch
-console.log(myPromise(30))
-myPromise("dfghj").then((result)=>{
-    console.log(result)
-}).catch(err=>{
-    console.log(err)
-})
+// console.log(myPromise(30))
+// myPromise(20).then((result)=>{
+//     result = result
+//     return result
+// }).then((result)=>{
+//     console.log(result*100)
+// })
+
+// .catch(err=>{
+//     console.log(err)
+// })
+
+
+
+
+
+// console.log(result)
 
 /// handling promise with async await
+
+
+// let promiseHandle = async ()=>{
+
+//     try{
+//         let resPromise = await myPromise(30)
+//         let total = await resPromise*100
+//         console.log(total)
+
+//     }
+//     catch(err){
+//         console.log(err)
+//     }
+
+
+// }
+
+// console.log(promiseHandle())
+
+
+
+
+
+// let apiData = ()=>{
+//    let data =  fetch('https://jsonplaceholder.typ')
+//     data.then(result=>{
+//         console.log(result)
+//         return result.json()
+//     }).then(apiRes=>{
+//         console.log(apiRes)
+//     }).catch(err=>{
+//         console.log(err)
+//     })
+
+
+// }
+// apiData()
+
+let apiData = async ()=>{
+    let data = await fetch("https://jsonplaceholder.typicode.com/users")
+    let apiResult = await data.json()
+    console.log(apiResult)
+    apiResult.forEach(element => {
+        console.log(element.username)
+    });
+}
+
+
+
+
+
+apiData()
+
+
+
+let div = document.getElementById('div_id')
+let handleUserFunc = async ()=>{
+    let data = await fetch("https://jsonplaceholder.typicode.com/users")
+    let apiResult = await data.json()
+    console.log(apiResult)
+    apiResult.forEach(element => {
+        let h2 = document.createElement('h2')
+        h2.innerText = element.username
+        div.appendChild(h2)
+        
+    });
+}
+
+
+
+// all users = https://jsonplaceholder.typicode.com/users
+// all posts = https://jsonplaceholder.typicode.com/posts
+
+
+
 
