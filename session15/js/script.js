@@ -147,8 +147,6 @@ let apiData = async ()=>{
 
 
 
-
-
 apiData()
 
 
