@@ -100,22 +100,24 @@ let myPromise = (val)=>{
 /// handling promise with async await
 
 
-// let promiseHandle = async ()=>{
+let promiseHandle = async ()=>{
+    try{
+        let resPromise = await myPromise(30)
+        let total = await resPromise*100
+        console.log(total)
 
-//     try{
-//         let resPromise = await myPromise(30)
-//         let total = await resPromise*100
-//         console.log(total)
+    }
+    catch(err){
+        console.log(err)
+    }
 
-//     }
-//     catch(err){
-//         console.log(err)
-//     }
+}
 
+console.log(promiseHandle())
 
-// }
-
-// console.log(promiseHandle())
+let proms = async ()=>{
+    let res = await 
+}
 
 
 
