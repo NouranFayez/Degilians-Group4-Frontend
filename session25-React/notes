@@ -1,0 +1,17 @@
+
+
+navbar ==> home , products , login
+products ==> all products
+login ==> form validation + send data to api
+
+-- npm install react-router-dom
+-- create components
+-- Layout
+-- Router 
+-- Link to
+-- Activate Router
+
+
+--- createContext() ==> store
+-- providerContext ==> data
+
